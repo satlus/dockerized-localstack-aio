@@ -1,5 +1,5 @@
-# LocalStack Docker AIO (All in One)
-We want to test core aws services quickly without incurring costs and futzing with the console. [LocalStack to the rescue](https://localhost.cloud)
+# LocalStack AWS Docker AIO (All in One)
+We want to test core aws services quickly without incurring costs and messing around with the console. [LocalStack to the rescue](https://localhost.cloud)
 
 We also want the localstack environment to be fully dockerized so we don't pollute the host devenv. We use docker-compose to run localstack and the aws-cli docker image to do this
 
@@ -38,7 +38,5 @@ Tested on OSX x86 12.3.1 with Docker Desktop 4.8.1
 - [ ] sqs working
 - [ ] cloudfront working
 - [ ] simple e2e app working
-- [ ] debugging lambdas working122
-
-
+- [ ] debugging lambdas working
 
