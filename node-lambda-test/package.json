@@ -1,0 +1,16 @@
+{
+  "name": "lambda-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-lambda-ric": "^2.0.0",
+    "aws-xray-sdk-core": "^3.3.5"
+  }
+}

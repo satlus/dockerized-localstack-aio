@@ -1,5 +1,4 @@
-const { S3 } = require('aws-sdk');
-const AWS = require('aws-sdk');
+const { AWS, S3 } = require('aws-sdk');
 
 AWS.config.getCredentials((err) => {
   if (err) console.log(err.stack);
@@ -19,3 +18,5 @@ s3.listBuckets((err, data)=>{
     console.log("Success", data.Buckets);
   }
 });
+
+//
